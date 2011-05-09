@@ -45,7 +45,7 @@ public class JMeterVersion {
      * version, even if JMeterUtils is not re-compiled during the build.
      */
 
-    private static final String VERSION = "2.4.20110504";
+    private static final String VERSION = "2.3.4.20110509";
 
 
 

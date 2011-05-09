@@ -337,8 +337,8 @@ public class JMeterTreeListener implements TreeSelectionListener, MouseListener,
 	}
     
 	public void addCommand(Command command) {
-		for (String name: command.getActionNames()) {
-			this.commandMap.put(name, command);
+		for (Object name: command.getActionNames()) {
+			this.commandMap.put((String)name, command);
 		}
 	}
 }
